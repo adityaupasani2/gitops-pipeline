@@ -29,8 +29,8 @@ metadata:
 spec:
   project: gitops
   source:
-    repoURL:  https://github.com/YOUR-USERNAME/gitops-pipeline.git
-    path: overlays/dev
+    repoURL:  https://github.com/adityaupasani2/gitops-pipeline.git
+    path: overlays/stage
     targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc
@@ -51,8 +51,8 @@ metadata:
 spec:
   project: gitops
   source:
-    repoURL:  https://github.com/YOUR-USERNAME/gitops-pipeline.git
-    path: overlays/dev
+    repoURL:  https://github.com/adityaupasani2/gitops-pipeline.git
+    path: overlays/prod
     targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc

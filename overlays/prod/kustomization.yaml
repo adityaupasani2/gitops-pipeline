@@ -13,4 +13,4 @@ replicas:
 labels:
   - includeSelectors: true
     pairs:
-      environment: prod
+      environment: prod-flux-test
