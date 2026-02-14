@@ -7,7 +7,7 @@ metadata:
 spec:
   project: gitops
   source:
-    repoURL: /home/aditya/gitops-pipeline
+    repoURL: https://github.com/adityaupasani2/gitops-pipeline.git
     path: overlays/dev
     targetRevision: HEAD
   destination:
@@ -29,7 +29,7 @@ metadata:
 spec:
   project: gitops
   source:
-    repoURL: /home/aditya/gitops-pipeline
+    repoURL:  https://github.com/YOUR-USERNAME/gitops-pipeline.git
     path: overlays/dev
     targetRevision: HEAD
   destination:
@@ -51,7 +51,7 @@ metadata:
 spec:
   project: gitops
   source:
-    repoURL: /home/aditya/gitops-pipeline
+    repoURL:  https://github.com/YOUR-USERNAME/gitops-pipeline.git
     path: overlays/dev
     targetRevision: HEAD
   destination:
